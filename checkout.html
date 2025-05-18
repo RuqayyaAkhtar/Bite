@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/29a00776d0.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="style-a.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-m.css">
+
+    <title>Checkout</title>
+</head>
+<body>
+       <!-- -----------------------------------------------checkout form------------------------------------------------------------------------ -->
+<div class="main-checkout" id="checkout">
+    <a href="index.html"><h1>Bite</h1></a>
+    <div class="checkout">
+    <div class="left">
+        <form action="">
+        <p>Customer & shipping information</p>
+      <section>
+            <label for="">Email</label>
+            <input type="text" placeholder="Email">
+      </section>
+        <span>Have an account?<strong>Login</strong> or <strong>Create an account</strong></span>
+    <p>Shipping address</p>
+  <section>
+        <label for="">First name</label>
+        <input type="text" placeholder="First name">
+  </section>
+  <section>
+        <label for="">Last name</label>
+        <input type="text" placeholder="Last name">
+  </section>
+  <section>
+        <label for="">Company</label>
+        <input type="text" placeholder="Company">
+  </section>
+  <section>
+        <label for="">Address</label>
+        <input type="text" placeholder="Company">
+  </section>
+  <section>
+        <label for="">Apt, suit, etc</label>
+        <input type="text" placeholder="Apt, suit, etc (optional)">
+  </section>
+  <section>
+        <label for="">City</label>
+        <input type="text" placeholder="City"> 
+  </section>
+  <section>
+        <label for="">Country</label>
+        <input type="text" placeholder="Country">
+  </section>
+  <section>
+        <label for="">State</label>
+        <input type="text" placeholder="State">
+  </section>
+  <section>
+        <label for="">Zip code</label>
+        <input type="text" placeholder="Zip code">
+  </section>
+  <section>
+        <label for="">Phone</label>
+        <input type="text" placeholder="Phone">
+  </section>
+  <span class="span"><a href="index.html"><strong onClick="cartOpens()" style="cursor:pointer"> < Return to cart</strong></a><button onClick="cart.closecheckout">Continue</button></span>
+</form>
+    </div>
+    <div class="right">
+        <section><h3>Order Summary</h3></section>
+        <section><div class="append"></div></section>
+        <section><strong>Have a discount code? Enter it here ></strong></section>
+        <section class="column">
+            <p>Subtotal <span class="total2">$0</span></p>
+            <p>Shipping <span>—</span></p>
+            <p>Taxes <span>—</span></p>
+        </section>
+<section>Payment Due <strong class="total">$0</strong></section>
+    </div>
+</div>
+</div> 
+</body>
+</html>
