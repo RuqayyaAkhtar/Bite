@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/29a00776d0.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style-s.css">
+    <script src="scripts.js"></script>
+
+</head>
+
+<body>
+    <div class="main-container">
+ <!-- --------------\\\\\\\\\nav--------->
+        <nav class="h-nav">
+            <div class="one"><ul class="ul">
+            <li><a href="shop.html" target="_self"> SHOP</a></li>
+            <li onClick="menuOpens()"> ABOUT US</li>
+            </ul></div>
+            <div class="two"><h1 class="h1"><a href="index.html" target="_self"  style="color:black"> Bite</a></h1></div>
+            <div class="three"><ul class="ul">
+            <li onClick="cartOpens()"> <i class="fa fa-cart-plus" aria-hidden="true"></i> (0)</li>
+            <li onClick="accountOpens()">Account</li>
+            </ul></div>
+            </nav> 
+ <!-- ---------nav////////----------- -->           
+    <div class="shop-container">
+        <h1 class="one-h1">Most popular</h1>
+        <p class="one-p">LET’S GET YOUR PLASTIC FREE ROUTINE STARTED</p>
+        <h2 class="hr">join the club
+            <hr />
+        </h2>
+
+
+        <!-- --------------------JOIN-THE-CLUB-START------------------------- -->
+        <div class="join-the-club">
+            <!--  -->
+            <div class="grid">
+                <div class="sec3-up">
+                   <a href="product.html"><img src="./assets/Mint---Subscription---Front---Transparent-1a.png" alt=""></a>
+                    <div class="wavy">
+                        <span style="--i:1;">f</span>
+                        <span style="--i:2;">r</span>
+                        <span style="--i:3;">e</span>
+                        <span style="--i:4;">e</span>
+                        <span style="--i:5;">-</span>
+                        <span style="--i:6;">s</span>
+                        <span style="--i:7;">h</span>
+                        <span style="--i:8;">i</span>
+                        <span style="--i:9;">p</span>
+                        <span style="--i:10;">p</span>
+                        <span style="--i:11;">i</span>
+                        <span style="--i:12;">n</span>
+                        <span style="--i:13;">g</span>
+                        <span style="--i:14;">+</span>
+                        <span style="--i:15;">3</span>
+                        <span style="--i:16;">8</span>
+                        <span style="--i:17;">%</span>
+                        <span style="--i:18;">s</span>
+                        <span style="--i:19;">a</span>
+                        <span style="--i:20;">v</span>
+                        <span style="--i:21;">e</span>
+                    </div>
+
+                    <button onClick="cart.add(event), cartOpens()" id="1">ADD TO CART - $30</button>
+                </div>
+                <div class="sec3-dn">
+                    <h1>Fresh Mint</h1>
+                     <ul class="ul">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>&nbsp;
+                        <li>
+                            <p>5100 Reviews</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+            <!--  -->
+            <div class="grid">
+                <div class="sec3-up">
+                    <a href="product.html"><img src="./assets/Mint---Subscription---Front---Transparent-1a.png" alt=""></a>
+                    <div class="wavy"></div>
+                    <button onClick="cart.add(event), cartOpens()" id="2">ADD TO CART - $30</button>
+                </div>
+                <div class="sec3-dn">
+                    <h1> Mint With Activated Charcole</h1>
+                    <ul>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>&nbsp;
+                        <li><p>5100 Reviews</p></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!--  -->
+            <div class="grid">
+                <div class="sec3-up">
+                    <a href="product.html"><img src="./assets/Berry-Cart-Image.png" alt=""></a>
+                    <div class="wavy">
+                        <span style="--i:1;">f</span>
+                        <span style="--i:2;">r</span>
+                        <span style="--i:3;">e</span>
+                        <span style="--i:4;">e</span>
+                        <span style="--i:5;">-</span>
+                        <span style="--i:6;">s</span>
+                        <span style="--i:7;">h</span>
+                        <span style="--i:8;">i</span>
+                        <span style="--i:9;">p</span>
+                        <span style="--i:10;">p</span>
+                        <span style="--i:11;">i</span>
+                        <span style="--i:12;">n</span>
+                        <span style="--i:13;">g</span>
+                        <span style="--i:14;">+</span>
+                        <span style="--i:15;">3</span>
+                     <span style="--i:16;">8</span>
+                        <span style="--i:17;">%</span>
+                        <span style="--i:18;">s</span>
+                        <span style="--i:19;">a</span>
+                        <span style="--i:20;">v</span>
+                        <span style="--i:21;">e</span>
+                    </div>
+
+                    <button onClick="cart.add(event), cartOpens()" id="3">ADD TO CART - $30</button>
+                </div>
+                <div class="sec3-dn">
+                    <h1 class="berry">Berry Twist</h1>
+                    <ul>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>&nbsp;
+                        <li>
+                            <p>5100 Reviews</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--  -->
+        </div>
+
+        <!--------------------------------ALL-PRODUCTS-START----------------------------------- -->
+
+        <div class="all-products">
+            <h2 class="hr">all products
+                <hr />
+            </h2>
+
+        </div>
+
+        <!-- -----------------------------FRESH-MINT-START------------------------------------------->
+
+        <div class="fresh-mint">
+            <div class="fresh-one">
+                <h1>Fresh Mint</h1>
+                 <ul class="ul">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>&nbsp;
+                    <li><p>5100 Reviews</p></li>
+                </ul>
+
+                <p><span style="color:#2E2F31">Free Shipping & Auto Refills - </span>Save money and kick the tube
+                    for good with a subscription to our reinvented toothpaste bits
+                    with Fresh Mint.Cancel anytime.
+                </p>
+                <ul class=".ull">
+                    <li><i style="margin-right:15px"class="fa fa-check" aria-hidden="true"></i>
+
+                        Four Month Supply<span>-248tablets</span></li>
+                    <li><i style="margin-right:15px"class="fa fa-check" aria-hidden="true"></i>
+
+                        Refills Sent Automaticaly
+                    </li>
+                    <li><i style="margin-right:15px"class="fa fa-check" aria-hidden="true"></i>
+
+                        Free Shipping</li>
+                    <li><i style="margin-right:15px"class="fa fa-check" aria-hidden="true"></i>
+
+                        <span style="color:rgb(182, 172, 172)">You will save 38%</span><span
+                            style="color:rgb(231, 223, 223);font-size: 12px;">-dollar7.50per month</span></li>
+                </ul>
+                <button onClick="cart.add(event), cartOpens()" id="3">ADD TO CART-$30</button>
+            </div>
+            <div class="fresh-two">
+                <a href="product.html"><img src="./assets/Mint---Subscription---Front---Transparent-1a.png" alt=""></a>
+            </div>
+        </div>
+        <!-- ----------------------------BRUSH-BY-BITE---------------------------------------- --->
+        <div class="brush-by-bite">
+            <div class="brush-one">
+                <h1>Brush,by Bite</h1>
+                <ul class="ul">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                 <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>&nbsp;
+                    <li>
+                        <p>5100 Reviews</p>
+                    </li>
+                </ul>
+
+                <p><span style="color:#2E2F31">It's what weh've been missing </span>Brush your way to a healthier
+                    smile and a happier earth with our one-of-a-kind Bamboo ToothBrush.
+                </p>
+                <ul>
+                    <li><i style="margin-right:15px"class="fa fa-check" aria-hidden="true"></i>
+
+                        Bamboo toothBrush<span>-1 tooth brush</span></li>
+                    <li><i style="margin-right:15px"class="fa fa-check" aria-hidden="true"></i>
+
+                        Mooso bamboo handel
+                    </li>
+                    <li><i style="margin-right:15px"class="fa fa-check" aria-hidden="true"></i>
+
+                        Soft bristels</li>
+                    <li><i style="margin-right:15px"class="fa fa-check" aria-hidden="true"></i>
+
+                        <span style="color:rgb(182, 172, 172)">detatchable head</span></li>
+                </ul>
+                <button onClick="cart.add(event), cartOpens()" id="4">ADD TO CART-$4</button>
+            </div>
+
+            <div class="brush-two">
+                <a href="product.html"><img src="assets/cart-brush.png" alt=""></a>
+            </div>
+        </div>
+        <!-- -----------------------------THE DUO START--------------------------------------- -->
+
+
+        <div class="The-Duo">
+            <div class="duo-one">
+                <h1>The Duo</h1>
+                <ul class="ul">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>&nbsp;
+                    <li>
+                        <p>5100 Reviews</p>
+                    </li>
+                </ul>
+
+                <p><span style="color:#2E2F31">Fresh mint and Activated Charcole- </span>Experiences the reinvention of
+                    toothpaste
+                    both ways with th Naturally Whitening Mint and Activated Charcole.
+                </p>
+                <ul>
+                    <li><i style="margin-right:15px"class="fa fa-check" aria-hidden="true"></i>
+
+                        2- One Month Bottles</span></li>
+                    <li><i style="margin-right:15px"class="fa fa-check" aria-hidden="true"></i>
+
+                        Naturally Whitening
+                    </li>
+                    <li><i style="margin-right:15px"class="fa fa-check" aria-hidden="true"></i>
+
+                        Plastic-Free</li>
+
+
+
+                </ul>
+                <button onClick="cart.add(event), cartOpens()" id="5">ADD TO CART-$20</button>
+            </div>
+            <div class="duo-two">
+                <a href="product.html"><img src="./assets/Duo-Cart-Image.png" alt=""></a>
+            </div>
+        </div>
+        <!-- -------------------------------MINT-CHARCOLE------------------------------------------------------- -->
+
+        <div class="charcole">
+            <div class="char-one">
+                <h1>Mint With Activated Charcole</h1> 
+                <ul class="ul">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>&nbsp;
+                    <li>
+                        <p>5100 Reviews</p>
+                    </li>
+                </ul>
+                <p><span style="color:#2E2F31">Free shipping and Auto Refills-</span>Save money and kick the tube for
+                    good with a subscription
+                    to our reinvented toothpaste bits with Activated Charcoal. Cancel anytime.
+                </p>
+                <ul>
+                    <li><i style="margin-right:15px"class="fa fa-check" aria-hidden="true"></i>
+
+                        Four Month Supply
+                        <span>— 248 tablets</span></li>
+                    <li><i style="margin-right:15px"class="fa fa-check" aria-hidden="true"></i>
+
+                        Refills Sent Automatically
+
+                    </li>
+                    <li><i style="margin-right:15px"class="fa fa-check" aria-hidden="true"></i>
+
+                        Free Shipping
+                    </li>
+                    <li><i style="margin-right:15px"class="fa fa-check" aria-hidden="true"></i>
+
+                        <span style="color:rgb(182, 172, 172)"> You'll save 38% — $7.50/month
+                        </span></li>
+                </ul>
+                <button onClick="cart.add(event), cartOpens()" id="6">ADD TO CART-$30</button>
+            </div>
+
+            <div class="char-two">
+                <a href="product.html"><img src="assets/Charcoal---Subscription---Front---Transparent-1a.png" alt=""></a>
+            </div>
+        </div>
+
+
+        <!-- ---------------------------BERREY TWIST--------------------------------------------- -->
+
+        <div class="berry-twist">
+            <div class="berry-one">
+                <h1>Berry Twist</h1>
+                <ul class="ul">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>&nbsp;
+                    <li>
+                        <p>5100 Reviews</p>
+                    </li>
+                </ul>
+
+                <p><span style="color:#2E2F31">Free Shipping & Auto Refills-</span><span style="color:#cec5bf"> Little
+                        smiles will love the first
+                        stress-free, mess-free way for kids to brush their teeth.</span>
+
+                </p>
+                <ul>
+                    <li><i style="margin-right:15px"class="fa fa-check" aria-hidden="true"></i>
+
+                        Four Month Supply
+
+                        <span>— 248 tablets</span></li>
+                    <li><i style="margin-right:15px"class="fa fa-check" aria-hidden="true"></i>
+
+                        Refills Sent Automatically
+
+
+                    </li>
+                    <li><i style="margin-right:15px"class="fa fa-check" aria-hidden="true"></i>
+
+                        <span style="color:#cec5bf"> Free Shipping</span>
+
+                    </li>
+
+                </ul>
+                <button onClick="cart.add(event), cartOpens()" id="7">ADD TO CART-$30</button>
+            </div>
+
+            <div class="berry-two">
+                <a href="product.html"><img src="assets/Berry-Cart-Image.png" alt=""></a>
+            </div>
+        </div>
+
+
+
+        <!-- --------------------------------------Berry-TWIST-2----------------------------------------------------- -->
+
+        <div class="twist">
+            <div class="twist-one">
+                <h1>Berry Twist</h1>
+                <ul class="ul">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>&nbsp;
+                    <li>
+                        <p>5100 Reviews</p>
+                    </li>
+                </ul>
+
+                <p><span style="color:#2E2F31">Little smiles will love-</span><span style="color:#cec5bf"> The first
+                        stress-free, mess-free way for kids to brush their teeth.</span>
+
+                </p>
+                <ul>
+                    <li><i style="margin-right:15px"class="fa fa-check" aria-hidden="true"></i>
+
+                        One Month Bottle
+
+
+                        <span>— 62 tablets</span></li>
+                    <li><i style="margin-right:15px"class="fa fa-check" aria-hidden="true"></i>
+
+                        Fluoride-Free
+
+
+
+                    </li>
+                    <li><i style="margin-right:15px"class="fa fa-check" aria-hidden="true"></i>
+
+                        <span style="color:#cec5bf"> Tooth Fairy approved
+                        </span>
+
+                    </li>
+
+                </ul>
+                <button onClick="cart.add(event), cartOpens()" id="8">ADD TO CART-$12</button>
+
+            </div>
+
+            <div class="twist-two">
+                <a href="product.html"><img src="./assets/cart-berry.png" alt=""></a>
+            </div>
+        </div>
+        <!-- -----------------------------------MINT-ACTIVE--------------------------------------- -->
+
+        <div class="mint-active">
+            <div class="mint-active-one">
+                <h1>Mint w/ Activated Charcoal</h1>
+                <ul class="ul">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>&nbsp;
+                    <li>
+                        <p>5100 Reviews</p>
+                    </li>
+                </ul>
+                <p><span style="color:#2E2F31">To Detox & Tackle Surface Stains —</span> Bite into whiter teeth with a
+                    one-month supply of our Activated Charcoal toothpaste bits in a plastic-free glass bottle.
+
+
+                </p>
+                <ul>
+                    <li><i style="margin-right:15px"class="fa fa-check" aria-hidden="true"></i>
+
+                        One Month Bottle — 62 tablets
+                    </li>
+
+                    <li><i style="margin-right:15px"class="fa fa-check" aria-hidden="true"></i>
+
+                        Naturally whitening
+
+                    </li>
+
+                    <li><i style="margin-right:15px"class="fa fa-check" aria-hidden="true"></i>
+
+                        Plastic-Free
+
+                    </li>
+
+
+                </ul>
+                <button onClick="cart.add(event), cartOpens()" >ADD TO CART-$12</button>
+            </div>
+
+            <div class="mint-active-two">
+                <a href="product.html"><img src="./assets/Mint---Cart-Image.png" alt=""></a>
+            </div>
+        </div>
+
+
+        <!--------------------------------THE-ESENTIALS-HR----------------------------------- -->
+
+        <div class="essentials">
+            <h2 class="hr">the essentials
+
+                <hr />
+            </h2>
+
+        </div>
+        <!-- ----------------------------BRUSH-BY-BITE---------------------------------------- --->
+        <div class="brush-by-bite">
+            <div class="brush-one">
+                <h1>Brush,by Bite</h1>
+                <!--  -->
+            
+                    
+                <ul class="ul">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>&nbsp;
+                        <li>
+                            <p>5100 Reviews</p>
+                        </li>
+                    </ul>
+                
+                <!--  -->
+                <p><span style="color:#2E2F31">It's what weh've been missing </span>Brush your way to a healthier
+                    smile and a happier earth with our one-of-a-kind Bamboo ToothBrush.
+                </p>
+                <ul>
+                    <li><i style="margin-right:15px"class="fa fa-check" aria-hidden="true"></i>
+
+                        Bamboo toothBrush<span>-1 tooth brush</span></li>
+                    <li><i style="margin-right:15px"class="fa fa-check" aria-hidden="true"></i>
+
+                        Mooso bamboo handel
+                    </li>
+                    <li><i style="margin-right:15px"class="fa fa-check" aria-hidden="true"></i>
+
+                        Soft bristels</li>
+                    <li><i style="margin-right:15px"class="fa fa-check" aria-hidden="true"></i>
+
+                        <span style="color:rgb(182, 172, 172)">detatchable head</span></li>
+                </ul>
+                <button onClick="cart.add(event), cartOpens()" >ADD TO CART-$4</button>
+            </div>
+
+            <div class="brush-two">
+                <a href="product.html"><img src="assets/cart-brush.png" alt=""></a>
+            </div>
+        </div>
+        <!--------------------------------THE-BOTTELS-HR----------------------------------- -->
+
+        <div class="bottels">
+            <h2 class="hr"> the bottles
+
+
+                <hr />
+            </h2>
+
+        </div>
+
+        <!-- --------------------JOIN-THE-CLUB-START------------------------- -->
+        <div class="join-the-club">
+            <!--  -->
+            <div class="grid">
+                <div class="sec3-up">
+                    <div class="wavy"></div>
+                    <a href="product.html"><img src="./assets/Mint---Cart-Image.png" alt=""></a>
+
+                    <button onClick="cart.add(event), cartOpens()">ADD TO CART - $30</button>
+                </div>
+                <div class="sec3-dn">
+                    <h1>Fresh Mint</h1>
+                    <ul class="ul">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>&nbsp;
+                        <li>
+                            <p>5100 Reviews</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+            <!--  -->
+            <div class="grid">
+                <div class="sec3-up">
+                    <a href="product.html"><img src="./assets/Charcoal---Cart-Image.png" alt=""></a>
+                    <div class="wavy">
+                        <span style="--i:1;">G</span>
+                        <span style="--i:2;">r</span>
+                        <span style="--i:3;">e</span>
+                        <span style="--i:4;">a</span>
+                        <span style="--i:5;">t</span>
+                        <span style="--i:6;"></span>
+                        <span style="--i:7;">f</span>
+                        <span style="--i:8;">o</span>
+                        <span style="--i:9;">r</span>
+                        <span style="--i:10;"></span>
+                        <span style="--i:11;">K</span>
+                        <span style="--i:12;">i</span>
+                        <span style="--i:13;">d</span>
+                        <span style="--i:14;">s</span>
+
+                    </div>
+
+                    <button onClick="cart.add(event), cartOpens()">ADD TO CART - $30</button>
+                </div>
+                <div class="sec3-dn">
+                    <h1> Mint With Activated Charcole</h1>
+                    <ul>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>&nbsp;
+                        <li>
+                            <p>5100 Reviews</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!--  -->
+            <div class="grid">
+                <div class="sec3-up">
+                    <div class="wavy"></div>
+                    <a href="product.html"><img src="./assets/cart-berry.png" alt=""></a>
+
+                    <button onClick="cart.add(event), cartOpens()">ADD TO CART - $30</button>
+                </div>
+                <div class="sec3-dn">
+                    <h1 class="berry">Berry Twist</h1>
+                    <ul>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>&nbsp;
+                        <li>
+                            <p>5100 Reviews</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+        <!-- -------------------------------TOOTH-BRUSH------------------------------------------------- -->
+        <div class="section12">
+            <div class="text4">
+                <h1>Let's stay in touch</h1>
+                <p>Sign up for smiles in your inbox: tips on oral care,<br/> plastic-free living plus new products, and giveaways.</p>
+                <form>
+                    <input type="text" placeholder="Enter your email">
+                    <button>Subscribe</button>
+                </form>
+            </div>
+            <img src="./assets/toothbrush-foams.jpg" alt="">
+        </div>
+
+        <!-- ------------------------------------------FOOTER----------------------------------------------------- -->
+        
+        <div class="footer">
+            <div class="h1-footer">
+                <h1>Bite</h1>
+            </div>
+            <div class="footer-content">
+                <div class="content-section s1">
+                    <h2>Subscriptions</h2>
+                    <p>Fresh Mint</p>
+                    <p>Activate Charcoale</p>
+                    <p>Berry Twist</p>
+                </div>
+        
+                <div class="content-section s2">
+                    <h2>Single Bottles</h2>
+                    <p>Mint</p>
+                    <p>Activated Charcoal</p>
+                    <p>Berry Twist - Great for kids!</p>
+                </div>
+                <div class="content-section s3">
+                    <h2>Follow Us</h2>
+                    <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                    <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </div>
+        
+                <div class="content-section s4">
+                    <h2>Contact Us</h2>
+                    <p>hello@bitetoothpastebits.com</p>
+                </div>
+                <div class="content-section s5">
+                    <h2>About Us</h2>
+                    <p>Who we are</p>
+                    <p>Sustainbility</p>
+                    <P>Ingrideants</P>
+                    <P> Blog</P>
+                    <p>FAQ</p>
+                </div>       
+                <div class="content-section s6">
+                    <h2>Press</h2>
+                    <p>For press and media inquiries,please<br />Email<span> our press team</span></p>
+                </div>
+                <div class="content-section s7">
+                    <h2>Need Help</h2>
+                    <p>Checkout our <span>help center</span><br />Need Further Assistance?Contact Us<br /><span>hello@bitetoothpastebits.com</span>
+                    </p>
+                </div>
+        
+            </div>
+            <div class="footer-bottom">
+                <p>Copyright © 2020, Bite. Powered by Shopify</p>
+                <div>
+                <i class="fa fa-cc-amex" aria-hidden="true"></i>
+                <i class="fa fa-apple" aria-hidden="true"></i>
+                <i class="fa fa-cc-diners-club" aria-hidden="true"></i>
+                <i class="fa fa-cc-discover" aria-hidden="true"></i>
+                <i class="fa fa-cc-jcb" aria-hidden="true"></i>
+                <i class="fa fa-cc-mastercard" aria-hidden="true"></i>
+                <i class="fa fa-cc-visa" aria-hidden="true"></i>
+            </div>
+                <p>privecypolicy terms of service</p>
+            </div>
+        </div> 
+           </div>
+        
+ 
+ <!-- ------------\\\\\\\\\\\\\\menu------------------- -->
+ <div class="menu1">
+    <div class="nav-bar">
+        <i class="fas fa-angle-left" onClick="menuClose()"></i>
+        <ul>
+            <a href="about.html" target="_self"><li>Who we are</li></a>
+            <li>Sustainability</li>
+            <li>Ingredients</li>
+            <li>Blog</li>
+        </ul>
+      </div>
+    <div class="extra">
+ </div>
+</div>
+<!------------menu////////--------------------->
+
+
+<!------------\\\\\\\\cart--------------------->
+<div class="menu2">
+<div class="extra">
+</div>
+<div class="cart">
+ <div class="cart-nav">
+      <i class="fas fa-angle-left" onClick="cartClose()"></i> <h2>My cart</h2>
+ </div>
+             <!----\\\\\before add-items in cart----->
+ <div class="before-add">
+    <h1>My Cart</h1>
+    <p class="p-add">Your cart is currently empty.</p>
+    <div class="before-add-item">
+        <div class="img"><img src="./assets/Mint---Subscription---Front---Transparent-1a.png" alt=""></div>
+        <div class="texts">
+        <p><strong>Fresh Mint - Subscription</strong><br/><span>$30.00</span></p>
+        <button onClick="cart.add(event)" data-id="1">Add</button>
+        </div>
+    </div>
+    <div class="before-add-item">
+        <div class="img"><img src="./assets/Toothbrush---Cutout---Main-Image-1.png" alt=""></div>
+        <div class="texts">
+        <p><strong>Brush - 2-pack</strong><br/><span>$9.00</span></p>
+        <button onClick="cart.add(event)" data-id="2">Add</button>
+        </div>
+    </div>
+    <div class="before-add-item">
+        <div class="img"><img src="./assets/Duo-Cart-Image.png" alt=""></div>
+        <div class="texts">
+        <p><strong>The Duo</strong><br/><span>$20.00</span></p>
+        <button onClick="cart.add(event)" data-id="3">Add</button>
+        </div>
+    </div>
+    <div class="before-add-item">
+        <div class="img"><img src="./assets/Mint---Cart-Image.png" alt=""></div>
+        <div class="texts">
+        <p><strong>Mint</strong><br/><span>$12.00</span></p>
+        <button onClick="cart.add(event)" data-id="4">Add</button>
+        </div>
+    </div>
+    <div class="before-add-item">
+        <div class="img"><img src="./assets/Mint---Subscription---Front---Transparent-1a.png" alt=""></div>
+        <div class="texts">
+        <p><strong>Activated Charcoal - Subscription</strong><br/><span>$30.00</span></p>
+        <button onClick="cart.add(event)" data-id="5">Add</button>
+        </div>
+    </div>
+    <div class="before-add-item">
+        <div class="img"><img src="./assets/Berry-Cart-Image.png" alt=""></div>
+        <div class="texts">
+        <p><strong>Berry Twist - Subscription</strong><br/><span>$30.00</span></p>
+        <button onClick="cart.add(event)" data-id="6">Add</button>
+        </div>
+    </div>
+    <div class="before-add-item">
+        <div class="img"><img src="./assets/cart-berry.png" alt=""></div>
+        <div class="texts">
+        <p><strong>Berry Twist</strong><br/><span>$12.00</span></p>
+        <button onClick="cart.add(event)" data-id="7">Add</button>
+        </div>
+    </div>
+    <div class="before-add-item">
+        <div class="img"><img src="./assets/Charcoal---Cart-Image.png" alt=""></div>
+        <div class="texts">
+        <p><strong>Mint Charcoal</strong><br/><span>$12.00</span></p>
+        <button onClick="cart.add(event)" data-id="8">Add</button>
+        </div>
+    </div>
+ </div>
+             <!-------before-add items in cart////------>
+
+             <!---\\\\\after add-items in cart--------->
+ <div class="after-add">
+     <div class="added-items">
+        <!-- added items -->
+     </div>
+              <!-- checkout items -->
+     <div class="unadded-items">
+         <div class="check-out-before">
+            <p><strong>Subtotal</strong><span class="total">$0</span></p>
+            <p><strong>Shipping</strong><span>Free US shipping</span></p>
+        <a href="checkout.html" onClick="cartClose()"><button onClick="cart.checkout(event)">Checkout</button></a>
+             <h3>Anything else?</h3>  
+         </div>
+
+         <!---unaddded items--------->
+<div class="unadded-slider">
+<div class="add-items">
+<div class="add-item">
+<div class="img"><img src="./assets/Mint---Subscription---Front---Transparent-1a.png" alt=""></div>
+<div class="texts">
+<p><strong>Fresh Mint - Subscription</strong><br/><span>$30.00</span></p>
+<button onClick="cart.add(event)" data-id="1">Add</button>
+</div>
+</div>
+<div class="add-item">
+<div class="img"><img src="./assets/Toothbrush---Cutout---Main-Image-1.png" alt=""></div>
+<div class="texts">
+<p><strong>Brush - 2-pack</strong><br/><span>$9.00</span></p>
+<button onClick="cart.add(event)" data-id="2">Add</button>
+</div>
+</div>
+<div class="add-item">
+<div class="img"><img src="./assets/Duo-Cart-Image.png" alt=""></div>
+<div class="texts">
+<p><strong>The Duo</strong><br/><span>$20.00</span></p>
+<button onClick="cart.add(event)" data-id="3">Add</button>
+</div>
+</div>
+<div class="add-item">
+<div class="img"><img src="./assets/Mint---Cart-Image.png" alt=""></div>
+<div class="texts">
+<p><strong>Mint</strong><br/><span>$12.00</span></p>
+<button onClick="cart.add(event)" data-id="4">Add</button>
+</div>
+</div>
+<div class="add-item">
+<div class="img"><img src="./assets/Mint---Subscription---Front---Transparent-1a.png" alt=""></div>
+<div class="texts">
+<p><strong>Activated Charcoal - Subscription</strong><br/><span>$30.00</span></p>
+<button onClick="cart.add(event)" data-id="5">Add</button>
+</div>
+</div>
+<div class="add-item">
+<div class="img"><img src="./assets/Berry-Cart-Image.png" alt=""></div>
+<div class="texts">
+<p><strong>Berry Twist - Subscription</strong><br/><span>$30.00</span></p>
+<button onClick="cart.add(event)" data-id="6">Add</button>
+</div>
+</div>
+<div class="add-item">
+<div class="img"><img src="./assets/cart-berry.png" alt=""></div>
+<div class="texts">
+<p><strong>Berry Twist</strong><br/><span>$12.00</span></p>
+<button onClick="cart.add(event)" data-id="7">Add</button>
+</div>
+</div>
+<div class="add-item">
+<div class="img"><img src="./assets/Charcoal---Cart-Image.png" alt=""></div>
+<div class="texts">
+<p><strong>Mint Charcoal</strong><br/><span>$12.00</span></p>
+<button onClick="cart.add(event)" data-id="8">Add</button>
+</div>
+</div>  
+</div>
+</div>
+        </div>
+</div>
+   <!----after-add items in cart////////----->
+</div>
+</div>
+<!-- --------------cart////////----------->
+
+      <!------------\\\\\\\\account--------------------->
+      <div class="menu3">
+        <div class="extra">
+        </div>
+        <div class="account">
+            <div class="accountss">
+                <i class="fas fa-angle-left" onClick="accountClose()"></i>
+                <h1>Welcome back</h1>
+                <p>Login to check your order or modify your subscription.</p>
+                <form>
+                    <input type="email" placeholder="Email">
+                    <input type="password" placeholder="Password">
+                    <button>Sign in</button>
+                </form>
+                <span>Don't have an account? <a href="account.html"><strong>Register</strong></a></span><br/>
+                <strong style="cursor:pointer" onClick="password()">Forgot your password?</strong>
+                <span>That's simple! Just create a new account using the email address you placed your original subscription order with and your subscription will automatically appear. </span>
+            </div>
+            <div class="accounts">
+                <i class="fas fa-angle-left" onClick="accountClose()"></i>
+                <h1>Reset your password</h1>
+                <p>We will send you an email to reset your password.</p>
+                <form>
+                    <input type="email" placeholder="Email">
+                    <button>Submit</button>
+                    <strong>Cancel</strong>
+                </form>
+            </div>
+        </div>
+</div>
+</div>
+  <!------------account////////------------------->
+
+
+
+
+
+</body>
+
+</html>

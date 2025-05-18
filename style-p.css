@@ -1,0 +1,391 @@
+.first-product{
+    height: auto;
+    width:100%;
+    display: flex;
+    
+}
+.first-product .lefts{
+    position: relative;
+    height: 100vh;
+    width:55%;
+    display: flex;
+    padding-top:20%;
+    padding-left:20px;
+    box-sizing: border-box;
+    background-color:#D3E1E6;
+}
+.hover-img{
+    width:20%;
+    background-color:#D3E1E6;
+}
+.hover-img .img{
+    height: 60px;
+    width:60px;
+    border:1px solid;
+    background-color:#D3E1E6;
+    border-radius: 50%;
+    margin-top:2vh;
+}
+.hover-img .img img{
+    position:absolute;
+    width:60%;
+    height:75%;
+    left:20%;
+    bottom:0;
+    background-color:#D3E1E6;
+  transition: all .5s;
+    visibility:hidden;
+    
+}
+.hover-img .img:hover img{
+visibility: visible;
+}
+.reflect-img{
+    height: 100%;
+    background-image: url(./assets/Hands---Charcoal---Subscription---Hand---Website.png);
+    width:60%;
+    background-color:#D3E1E6;
+    background-size: 70% 100%;
+    background-repeat: no-repeat;
+}
+.blank {
+    width:20%;
+    background-color:#D3E1E6; 
+}
+.blank img{
+    position:relative;
+    height:25%;
+    top:75%;
+}
+.hover-img .img1{
+    background-image: url("./assets/Hands---Charcoal---Subscription---Hand---Website.png");
+    background-size: 100% 100%; 
+}
+  .hover-img .img2{
+    background-image: url("./assets/jar-mint_90c88216-2e9a-4601-9bc2-a3d7128ed92c_x280.jpg");
+    background-size: 100% 100%; 
+}
+  .hover-img .img3{
+    background-image: url("./assets/toothbrush-foams.jpg");
+    background-size: 100% 100%; 
+  }
+  .hover-img .img4{ 
+    background-image: url("./assets/hp-jar-tabletssplast-mint-1.png");
+    background-size: 100% 100%; 
+  }
+  .hover-img .img5{
+    background-image: url("./assets/jar-tablets-splat-1.png");
+ background-size: 100% 100%; 
+  }
+.first-product .rights{
+    padding:20px;
+    box-sizing: border-box;
+    height: auto;
+    width:45%;
+    background-color: white;
+    
+}
+/* ----------------fresh-one----------------------- */
+.fresh-one{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+padding:20px  50px;
+box-sizing: border-box;
+    color:#000000;  
+
+}
+
+.fresh-one li{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    color:#000000;
+    margin-right: 10px;  
+    
+}
+.fresh-one i{
+    color:#172345;
+    font-size: .8em;
+    line-height: 2em;
+    margin-right:20px;
+}
+.fresh-one p{
+    font-size: 1.1em;
+    color:#000000;
+line-height: 1.7em; 
+}
+.fresh-one h1{
+
+    color:#000000;
+        font-size: 3em;
+        font-weight: 700;
+        letter-spacing: -3px;
+        line-height: 2em; 
+       
+}
+.fresh-two img{
+    height:70% ;
+    width:70%;
+}
+.fresh-two img:hover{
+    height: 80%;
+}
+.fresh-one button{
+    bottom:0;
+    width:70%;
+    background:#172345;
+    color:white;
+    border:none;
+    outline:none;
+    padding:15px;
+    border-radius:5px;
+    border:2px solid #172345;
+    font-weight: bolder;
+    cursor: pointer;
+    margin: 30px;
+}
+.fresh-one button:hover{
+    background-color: whitesmoke;
+    color:#172345;
+}
+
+/* -------------------------------------- */
+.header-p{
+    height: 90vh;
+    width:100%;
+    background-image: url(./assets/girl-face.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-p h1{
+    color:whitesmoke;
+    text-align: center;
+    font-size: 2.5em;
+
+}
+/* ------------------------------------ */
+.product-main{
+    height: auto;
+    width:100%;
+    padding:20px 0;
+    box-sizing: border-box;
+    background-color: #E7F6FB;
+    font-family:Arial, Helvetica, sans-serif; 
+}
+.product-white{
+    height: auto;
+    width:80%;
+    margin: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+    padding:20px;
+    box-sizing: border-box;
+    
+}
+.product-left{
+    height: auto;
+    display: flex; 
+    flex-direction: column;
+  padding:50px;
+  box-sizing: border-box;
+    color:#162345;
+    width: 30%;
+    line-height: 2em;
+    /* background-color: red; */
+ }
+  .button{
+  background-color:#162345;
+  color:white;
+  border:none;
+  height: 50px;
+  width:50px;
+  font-weight:600;
+    
+
+}
+.product-right{
+      display: flex;
+      justify-content: flex-start;
+      height: auto;
+      width:70%;
+      flex-direction: column;
+      text-align: left;
+      padding:50px;
+  box-sizing: border-box;
+      line-height: 2em;
+      color:#162345;
+      
+      
+}
+ .product-main img{
+     align-self:flex-start ;
+     padding:20px;
+  }  
+  
+.hr{
+    font-size: 2px;
+    width:200px;
+}
+ .product-left ul{
+    list-style: none;
+}
+.product-left ul li i{
+    margin-right:20px ;
+    font-size: 12px;
+}
+.product-main h1{
+    font-weight: 500;
+    
+}
+.product-main h3{
+    color:#16236F;
+}
+.product-main span{
+    color:#B0B0B0;  
+}   
+
+
+
+
+    /* -------------- */
+
+.product-left .float , .product-right .float{
+    display:flex;
+    height:8vh;
+  align-items: center;
+}
+.float button{
+    padding:15px;
+    background: #162345;
+    color:white;
+    font-size: 1.3em;
+    margin-right:20px;
+    border:none;
+    outline:none;
+}
+.float .before{
+    position:relative;
+width:50%;
+height:2.5vh;
+margin-left:30px;
+background: #E8EFF5;
+}
+.float{
+    font-size: 1.3em;
+}
+.product-left span{
+    line-height: 3em;
+}
+.float .before::after{
+    position:absolute;
+    content:"";
+    height:100%;
+    width:70%;
+    left:0;
+    top:0;
+    background: #162345;
+    }
+.product-right .floats{
+    position:relative;
+display: flex;
+align-items: center;
+height:8vh;
+width:80%;
+margin-top:3vh;
+    }
+    .floats p{
+        width:20%;
+        text-align: start;
+    }
+    .floats .befores{
+        width:80%;
+        position:absolute;
+        top:0;
+        left:30%;
+    }
+    .floats .after{
+        position:relative;
+        width:100%;
+        height:2vh;
+        background:white ;
+        border:1px solid grey;
+        
+    }
+    .floats .after::after{
+        content:"";
+        position:absolute;
+        width:80%;
+        height:100%;
+        background:#162345 ;
+        top:0;
+        left:0;
+    }
+    .after-text{
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .tab p{
+        color:blue;
+font-size: 1.3em;
+    }
+    .section6 .tab{
+        width:100%;
+        border-bottom: 1px solid silver;
+        padding:20px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    .section6 .tab strong{
+        font-size: 2em;
+        font-weight: lighter;
+        cursor: pointer;
+    }
+    .effect{
+        z-index:-1;
+        margin-top:-30vh;
+    }
+    .section6 .tabs{
+        height:auto;
+        display: none;
+        padding:10px;
+
+    }
+    .section6 .tabs p i{
+color:blue;
+margin-right:10px;
+    }
+    .section6 .tabs p{
+        line-height: 1.2em;
+        height:auto;
+        padding:10px;
+        color:black !important;
+        font-size: 1.2em;
+    }
+    .tab .min{
+        display: none;
+    }
